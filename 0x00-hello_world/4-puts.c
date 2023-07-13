@@ -1,8 +1,7 @@
 #include<stdio.h>
 /**
- * Main: A programme that prints a line
- * Function: Programming is like building a multilingual puzzle
- * Return: return a zero
+ * Main: Entry point
+ * Return: Always return 0 (success)
  */
 int main(void)
 {
