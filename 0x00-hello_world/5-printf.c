@@ -1,12 +1,11 @@
-
-#include<stdio.h>
+#include <stdio.h>
 /**
- * Main- Entry of the program
- * Return: Always return (0)
+ * main - Entry of the program
+ * Return: Always returns (0)
  */
 
 int main(void)
 {
-	printf("with proper grammar but the outcome is a piece of art,\n");
-	return(0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
