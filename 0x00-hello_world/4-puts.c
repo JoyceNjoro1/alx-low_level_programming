@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- *
+ * A programme that prints a line
  *
  *
  */
