@@ -1,4 +1,4 @@
-#include "coding.h"
+#include "main.h"
 
 /**
  * _isalpha - to output return 1 if alphabet or return 0 for other
