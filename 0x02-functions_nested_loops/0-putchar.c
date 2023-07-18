@@ -2,7 +2,7 @@
 
 /**
  * main - Program that prints _putchar
- * Description: putchar followed by a new line
+ *
  * Return: 0 Success
  */
 
