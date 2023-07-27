@@ -1,26 +1,33 @@
 #include "main.h"
 
 /**
- * print_number - print numbers chars
- * @n: integer params
- * Return: 0
- */
-
-void print_number(int n)
+  * leet - Encodes a string into 1337
+  * @s: The string to encode
+  *
+  * Return: The encoded string
+  */
+char *leet(char *s)
 {
-	unsigned int n1;
+	int a = 0, b = 0, l = 5;
+	char r[5] = {'A', 'E', 'O', 'T', 'L'};
+	char n[5] = {'4', '3', '0', '7', '1'};
 
-	n1 = n;
-
-	if (n < 0)
+	while (s[a])
 	{
-		_putchar('-');
-		n1 = -n;
+		b = 0;
+
+		while (b < l)
+		{
+			if (s[a] == r[b] || s[a] - 32 == r[b])
+			{
+				s[a] = n[b];
+			}
+
+			b++;
+		}
+
+		a++;
 	}
 
-	if (n1 / 10 != 0)
-	{
-		print_number(n1 / 10);
-	}
-	_putchar((n1 % 10) + '0');
+	return (s);
 }
